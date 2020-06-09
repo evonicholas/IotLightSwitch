@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+    <TextView android:layout_width="match_parent"
+              android:text="Insert information"
+              android:textColor="#000000"
+              android:fontFamily="@font/quicksandbold"
+              android:textSize="18dp"
+              android:gravity="center"
+              android:layout_height="36dp"/>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:orientation="horizontal"
+                  android:layout_height="wrap_content">
+        <TextView
+                android:text="Device Name"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="5dp"
+                android:layout_width="95dp"
+                android:layout_height="match_parent"
+                android:gravity="bottom"
+                android:textColor="#000000"
+                android:fontFamily="@font/quicksandbold"
+                android:id="@+id/textDeviceName"/>
+        <EditText android:layout_width="match_parent"
+                  android:layout_marginTop="5dp"
+                  android:layout_marginLeft="5dp"
+                  android:id="@+id/editTextDeviceName"
+                  android:background="@drawable/custominput"
+                  android:layout_marginRight="5dp"
+                  android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:orientation="horizontal"
+                  android:layout_height="wrap_content">
+        <TextView android:layout_width="95dp"
+                  android:text="Device IP"
+                  android:textColor="#000000"
+                  android:fontFamily="@font/quicksandbold"
+                  android:layout_marginLeft="5dp"
+                  android:layout_marginTop="11dp"
+                  android:gravity="bottom"
+                  android:id="@+id/textDeviceIP"
+                  android:layout_height="match_parent"/>
+        <EditText android:layout_width="match_parent"
+                  android:layout_marginTop="10dp"
+                  android:layout_marginRight="5dp"
+                  android:layout_marginLeft="5dp"
+                  android:background="@drawable/custominput"
+                  android:id="@+id/editTextDeviceIP"
+                  android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</LinearLayout>

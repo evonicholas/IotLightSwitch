@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "202989723958",
+    "firebase_url": "https://lightswitchproject-c2f2f.firebaseio.com",
+    "project_id": "lightswitchproject-c2f2f",
+    "storage_bucket": "lightswitchproject-c2f2f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202989723958:android:fe7a7f6173aa6798",
+        "android_client_info": {
+          "package_name": "com.example.lightswitchproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "202989723958-r2eegnnok9l6mo591sm9o59450ersm9s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lightswitchproject",
+            "certificate_hash": "24bf3cb4cff1619c7f9ba6ea8a0e2b07b2b7dc54"
+          }
+        },
+        {
+          "client_id": "202989723958-p1vtl4pgdjkp8jrbtk5h6pn7nv69vu84.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTdOP0n1OWAOKydp4YdaZGEnkOM2tKk04"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "202989723958-p1vtl4pgdjkp8jrbtk5h6pn7nv69vu84.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
